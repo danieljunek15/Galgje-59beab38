@@ -36,7 +36,7 @@ $empty = array();
 
 <div class="form">
     <form action="/php.web/galgjeGame.php" method="POST">
-        <input type="text" name="inputletter" maxlength="1">
+        <input type="text" name="inputletter" maxlength="1" pattern="[A-Za-z]{1}" >
         <input type="submit" name="SubmitButton" placeholder="Submit">
     </form>
 </div>   
@@ -139,7 +139,7 @@ foreach($woord as $value){
 </form>
 
 <?php 
-if($_SESSION['fout'] === 11){
+if($_SESSION['fout'] >= 11){
     unset($_SESSION['lettergokgoed']);
     unset($_SESSION['lettergokfout']);
     unset($_SESSION['fout']);

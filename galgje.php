@@ -32,7 +32,7 @@
     <div class="form">
         <form action="/php.web/galgjeGame.php" method="POST">
             <h2>Type a word</h2><br>
-            <input type="text" placeholder="Type here" name="galgjeword">
+            <input type="text" placeholder="Type here" name="galgjeword" pattern="[A-Za-z]{1}">
             <input type="submit" value="Submit" id="ButtonTypeWord">
         </form>
     </div>
