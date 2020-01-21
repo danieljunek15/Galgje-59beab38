@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+body {
+    background-color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#ButtonRandomWord {
+    background-color: blueviolet;
+}
+
+#ButtonTypeWord {
+    background-color: blueviolet;
+}
+
+#FormInput {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h2 {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}

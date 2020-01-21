@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+body {
+    background-color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#SubmitButton {
+    background-color: blueviolet;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    animation: colorRotate 3s linear 3s infinite;
+}
+
+@keyframes colorRotate {
+    from {
+        color: #6666ff;
+    }
+    10% {
+        color: #0099ff;
+    }
+    50% {
+        color: #00ff00;
+    }
+    75% {
+        color: #ff3399;
+    }
+    100% {
+        color: #6666ff;
+    }
+}
+
+#dood {
+    width: 300px;
+    display: flex;
+    align-self: left;
+}
